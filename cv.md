@@ -31,3 +31,8 @@ I work at Yandex, supporting the authorisation system, writing handy instruction
 * **Javacsript basics** at [Hexlet](https://hexlet.io)
 * **Responsive Web Design** at [FreeCodeCamp](https://www.freecodecamp.org/)
 * **JavaScript/Front-end** at [RS School](https://rs.school/) *in progress*
+
+## Language proficiency
+* **Russian** (navite)
+* **Ukrainian** (native)
+* **English** (advanced)
