@@ -1,11 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan Shimko's CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#skills" class="navlink">Skills</a></li>
+                <li><a href="#languages" class="navlink">Languages</a></li>
+                <li><a href="#education" class="navlink">Education</a></li>
+                <li><a href="#projects" class="navlink">Projects</a></li>
+                <li><a href="#contacts" class="navlink">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="avatarGroup">
+            <img src="img/avatar.png" alt="Avatar" class="avatar">
+            <img src="img/emoji.png"  alt="Avatar" class="emoji">
+        </div>
+        <section class="information">
+            <h1>Ivan Shimko</h1>
+            <h3>Junior Frontend Developer</h3>
+            <p>I’m 24 years old now, and I’ve been trying to make websites since I was 14.</p>
+            <p>I work at Yandex, supporting the authorization system, writing handy instructions for colleagues and useful answers for users.</p>
+            <p>I want to learn how to create cool web applications and change my profession to a frontend developer.</p>
+        </section>
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <div class="cards">
+                <div class="skillCard">
+                    <ul>
+                        <li>Adobe Photoshop</li>
+                        <li>Figma</li>
+                    </ul>
+                    <img src="img/photo.png" alt="Photo editor icon" class="cardIcon">
+                </div>
+                <div class="skillCard">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS Basics</li>
+                    </ul>
+                    <img src="img/code.png" alt="Code icon" class="cardIcon">
+                </div>
+                <div class="skillCard">
+                    <ul>
+                        <li>Git & Github</li>
+                        <li>Domains</li>
+                        <li>Hosting</li>
+                    </ul>
+                    <img src="img/git.png" alt="Git icon" class="cardIcon">
+                </div>
+            </div>
+        </section>
+        <section class="languages" id="languages">
+            <h2>Languages</h2>
+            <div class="cards">
+                <div class="languageCard">
+                    <h4>English</h4>
+                    <p class="langLevel">Advanced</p>
+                    <img src="img/gb.png" alt="Flag of United Kingdom" class="cardIcon">
+                </div>
+                <div class="languageCard">
+                    <h4>Ukrainian</h4>
+                    <p class="langLevel">Native</p>
+                    <img src="img/ua.png" alt="Flag of Ukraine" class="cardIcon">
+                </div>
+                <div class="languageCard">
+                    <h4>Russian</h4>
+                    <p class="langLevel">Native</p>
+                    <img src="img/ru.png" alt="Flag of Russia" class="cardIcon">
+                </div>
+            </div>
+        </section>
+        <section class="education" id="education">
+            <h2>Education</h2>
+            <div class="cards">
+                <div class="educationCard">
+                    <h4>Responsive Web Design</h4>
+                    <p><a href="https://www.freecodecamp.org/" class="school">freeCodeCamp</a></p>
+                    <img src="img/fcc.png" alt="freeCodeCamp Logo" class="cardIcon">
+                </div>
+                <div class="educationCard">
+                    <h4>JavaScript/Front-end</h4>
+                    <p><a href="https://rs.school/"  class="school">RS School</a></p>
+                    <div class="label">IN PROGRESS</div>
+                    <img src="img/rs.png" alt="RS School Logo" class="cardIcon">
+                </div>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <h2>Projects</h2>
+            <div class="cards">
+                <div class="projectCard">
+                    <h4>Survey form</h4>
+                    <a href="https://github.com/iwnxx/survey-form" class="school">Open on Github</a>
+                   <div class="screenshot">
+                   </div>
+                </div>
+                <div class="projectCard">
+                    <h4>Code example</h4>
+                <div class="codeContainer"><code>
+#years {<br>
+  display: flex;<br>
+  justify-content: flex-end;<br>
+  position: sticky;<br>
+  top: 0;<br>
+  background: #0a0a23;<br>
+  color: #fff;<br>
+  z-index: 999;<br>
+  margin: 0 -2px;<br>
+}<br>
+
+form {<br>
+  width: 75%;<br>
+  background-color: #50ffffff;<br>
+  backdrop-filter: blur(10px);<br>
+  margin: auto;<br>
+  margin-bottom: 35px;<br>
+  padding: 10px 20px;<br>
+  border-radius: 20px;<br>
+  z-index: 999;<br>
+  }<br>
+
+</code> </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <h2>Contacts</h2>
+            <div class="cards">
+                <div class="contactCard">
+                        <h4>Write me</h4>
+                        <a href="mailto:iwnxx@ya.ru" class="contact">iwnxx@ya.ru</a>
+                        <img src="img/mail.png" alt="Email icon" class="cardIcon">
+                </div>
+                <div class="contactCard">
+                    <h4>Call me</h4>
+                    <a href="tel:+79001112345" class="contact">+7 (900) 111-23-45</a>
+                    <img src="img/phone.png" alt="Phone icon" class="cardIcon">
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+ <div class="footerContainer">
+    <div class="footerItem">
+    <a href="https://github.com/iwnxx" class="githubLink">My Github</a>
+    <p>2022</p>
+</div>
+    <div class="footerItem">
+        <a href="https://rs.school/js/">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="Course Logo" class="courseLogo">
+        </a>
+    </div>
+ </div>
+    </footer>
 </body>
 </html>
